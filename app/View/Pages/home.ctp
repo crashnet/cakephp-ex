@@ -78,7 +78,7 @@ endif;
 	else:
 		echo '<span class="notice">';
 			echo __d('cake_dev', 'Your database configuration file is NOT present.');
-			echo '<br/>';
+			echo '<br/><br/>';
 			echo __d('cake_dev', 'Rename %s to %s', 'APP/Config/database.php.default', 'APP/Config/database.php');
 		echo '</span>';
 	endif;
